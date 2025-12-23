@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Osztályok</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar glass">
+  <span id="username"></span>
+  <button class="logout-btn" onclick="logout()">Kilépés</button>
+</div>
+
+<div class="wrapper">
+  <div class="card glass">
+    <div id="tabla"></div>
+  </div>
+</div>
+
+<script src="dashboard.js"></script>
+<script>
+function logout(){
+  localStorage.removeItem("user");
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>

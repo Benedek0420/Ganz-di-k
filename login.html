@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Belépés</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="card glass">
+    <h1>Belépés</h1>
+
+    <form onsubmit="login(); return false;">
+      <input id="user" placeholder="Felhasználónév" autocomplete="username">
+      <input id="pass" type="password" placeholder="Jelszó" autocomplete="current-password">
+      <button class="primary-btn" type="submit">Belépés</button>
+    </form>
+
+    <div id="hiba"></div>
+  </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
