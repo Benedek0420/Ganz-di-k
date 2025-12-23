@@ -1,6 +1,7 @@
 const users = {
   "Benedek": { pass: "201004", name: "Benedek" },
-  "Admin04": { pass: "admin", name: "Admin" }
+  "Admin04": { pass: "admin", name: "Admin" },
+  "tataverteee": { pass: "ASz3ntK3s", name: "Mester" }
 };
 
 function login(){
